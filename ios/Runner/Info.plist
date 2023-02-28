@@ -49,8 +49,8 @@
 	<true/>
 	<key>UIBackgroundModes</key>
 <array>
-   <string>fetch</string>
-   <string>remote-notification</string>
+   <string>fetch files</string>
+   <string>for uploading files to server</string>
 </array>
 </dict>
 </plist>

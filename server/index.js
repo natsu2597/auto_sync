@@ -6,7 +6,7 @@ const mongoose = require('mongoose');
 const fileRouter = require("./routes/file");
 
 
-const PORT = 3000;
+const PORT = process.env.PORT || 3000;
 const app = express();
 const DB = "mongodb+srv://atul:natsuSAMA@cluster2.yjupr0k.mongodb.net/?retryWrites=true&w=majority"
 
